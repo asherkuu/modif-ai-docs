@@ -3,14 +3,12 @@ import { ThemeProvider } from "@/components/contexts/theme-provider";
 import { Navbar } from "@/components/navbar";
 import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
-import { Footer } from "@/components/footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "AriaDocs - Template",
-  metadataBase: new URL("https://ariadocs.vercel.app/"),
-  description:
-    "This comprehensive documentation template, crafted with Next.js and available as open-source, delivers a sleek and responsive design, tailored to meet all your project documentation requirements.",
+  title: "ModifAi docs - Landing",
+  metadataBase: new URL("https://docs.modif-ai.com/"),
+  description: "튜토리얼, 가이드 문서, 예제 등을 탐색해 보세요.",
 };
 
 export default function RootLayout({
@@ -34,7 +32,7 @@ export default function RootLayout({
           <main className="sm:container mx-auto w-[90vw] h-auto">
             {children}
           </main>
-          <Footer />
+          {/* <Footer /> */}
         </ThemeProvider>
       </body>
     </html>

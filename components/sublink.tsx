@@ -28,7 +28,11 @@ export default function SubLink({
   }, [href, path]);
 
   const Comp = (
-    <Anchor activeClassName="text-primary font-medium" href={href}>
+    <Anchor
+      className="rounded-md px-2 py-1 w-full"
+      activeClassName="text-primary font-medium bg-neutral-100 dark:bg-neutral-800"
+      href={href}
+    >
       {title}
     </Anchor>
   );
@@ -44,13 +48,13 @@ export default function SubLink({
   );
 
   if (!items) {
-    return <div className="flex flex-col">{titleOrLink}</div>;
+    return <div className="flex flex-col w-full">{titleOrLink}</div>;
   }
 
   return (
     <div className="flex flex-col gap-1 w-full">
       <Collapsible open={isOpen} onOpenChange={setIsOpen}>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 w-full">
           {titleOrLink}
           <CollapsibleTrigger asChild>
             <Button
@@ -70,7 +74,7 @@ export default function SubLink({
         <CollapsibleContent>
           <div
             className={cn(
-              "flex flex-col items-start sm:text-sm dark:text-stone-300/85 text-stone-800 ml-0.5 mt-2.5 gap-3",
+              "flex flex-col items-start sm:text-sm dark:text-stone-300/85 text-stone-800 ml-0.5 mt-2.5",
               level > 0 && "pl-4 border-l ml-1"
             )}
           >

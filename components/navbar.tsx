@@ -1,7 +1,10 @@
 import { ModeToggle } from "@/components/theme-toggle";
-import { GithubIcon, TwitterIcon, CommandIcon } from "lucide-react";
+import {
+  //  GithubIcon, TwitterIcon,
+  BookOpenText,
+} from "lucide-react";
 import Link from "next/link";
-import { buttonVariants } from "./ui/button";
+// import { buttonVariants } from "./ui/button";
 import Search from "./search";
 import Anchor from "./anchor";
 import { SheetLeftbar } from "./leftbar";
@@ -12,22 +15,6 @@ export const NAVLINKS = [
   {
     title: "Documentation",
     href: `/docs${page_routes[0].href}`,
-  },
-  {
-    title: "Blog",
-    href: "/blog",
-  },
-  {
-    title: "Examples",
-    href: "#",
-  },
-  {
-    title: "Guides",
-    href: "#",
-  },
-  {
-    title: "Community",
-    href: "https://github.com/nisabmohd/Aria-Docs/discussions",
   },
 ];
 
@@ -51,7 +38,7 @@ export function Navbar() {
           <div className="flex items-center gap-2">
             <Search />
             <div className="flex ml-2.5 sm:ml-0">
-              <Link
+              {/* <Link
                 href="https://github.com/nisabmohd/NexDocs"
                 className={buttonVariants({ variant: "ghost", size: "icon" })}
               >
@@ -65,7 +52,7 @@ export function Navbar() {
                 })}
               >
                 <TwitterIcon className="h-[1.1rem] w-[1.1rem]" />
-              </Link>
+              </Link> */}
               <ModeToggle />
             </div>
           </div>
@@ -78,8 +65,8 @@ export function Navbar() {
 export function Logo() {
   return (
     <Link href="/" className="flex items-center gap-2.5">
-      <CommandIcon className="w-6 h-6 text-muted-foreground" strokeWidth={2} />
-      <h2 className="text-md font-bold">AriaDocs</h2>
+      <BookOpenText className="w-6 h-6 text-muted-foreground" strokeWidth={2} />
+      <h2 className="text-md font-bold">Modif-Ai Docs</h2>
     </Link>
   );
 }

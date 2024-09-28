@@ -1,4 +1,4 @@
-## AriaDocs - Documentation Template
+## ModifAiDocs - Documentation Template
 
 This feature-packed documentation template, built with Next.js, offers a sleek and responsive design, perfect for all your project documentation needs.
 
@@ -6,8 +6,7 @@ This feature-packed documentation template, built with Next.js, offers a sleek a
 
 <br/>
 
-Here are all versions of the AriaDocs template, each crafted for specific use cases:
-
+Here are all versions of the ModifAiDocs template, each crafted for specific use cases:
 
 - **Advanced Docs:** A comprehensive template offering extensive features for in-depth documentation needs. Perfect for larger projects that require detailed explanations and advanced configurations.  
   [Explore the Advanced Docs](https://github.com/nisabmohd/Aria-Docs/tree/master)
@@ -23,7 +22,7 @@ Here are all versions of the AriaDocs template, each crafted for specific use ca
 
 ### Quick Start
 
-You can create a new Ariadocs project using the command:
+You can create a new ModifAiDocs project using the command:
 
 ```bash
 npx create-aria-doc <project-directory>
@@ -34,9 +33,9 @@ npx create-aria-doc <project-directory>
 When you run the CLI, you can expect an output similar to this:
 
 ```
-Creating a new Ariadocs project in /path/to/your/project from the master branch...
+Creating a new ModifAiDocs project in /path/to/your/project from the master branch...
 Cloning Master (Full Documentation)...
-Ariadocs project successfully created in /path/to/your/project!
+ModifAiDocs project successfully created in /path/to/your/project!
 
 Next steps:
 1. Navigate to your project directory:
@@ -61,7 +60,6 @@ pnpm dev
 bun dev
 ```
 
-
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
@@ -71,9 +69,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/nisabmohd/Aria-Docs)
 
 Got it! Here's a way to present the features in a more structured and visually appealing way using a table:
-
-
-
 
 ## Features
 
