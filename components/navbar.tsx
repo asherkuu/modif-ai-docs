@@ -67,6 +67,9 @@ export function Logo() {
     <Link href="/" className="flex items-center gap-2.5">
       <BookOpenText className="w-6 h-6 text-muted-foreground" strokeWidth={2} />
       <h2 className="text-md font-bold">Modif-Ai Docs</h2>
+      <span className="cursor-default bg-black rounded-md text-white py-[0.5] px-2 text-sm dark:bg-white dark:text-black">
+        beta
+      </span>
     </Link>
   );
 }

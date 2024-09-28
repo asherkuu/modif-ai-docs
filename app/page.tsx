@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="flex sm:min-h-[91vh] min-h-[88vh] flex-col items-center justify-center text-center px-2 py-8">
       <h1 className="text-3xl font-bold mb-4 sm:text-7xl">
-        AI와의 대화, 이제는 비용 효율적으로!
+        AI와의 대화, 이제는 비용을 효율적으로 !
       </h1>
       <p className="mb-8 sm:text-xl max-w-[800px] text-muted-foreground">
         {/* 원하는 만큼 대화하며 필요한 만큼만 지불할 수 있습니다. 복잡한 요금 체계
@@ -20,7 +20,7 @@ export default function Home() {
           href={`/docs${page_routes[0].href}`}
           className={buttonVariants({ className: "px-6", size: "lg" })}
         >
-          시작하기
+          더 알아보기
         </Link>
       </div>
     </div>
