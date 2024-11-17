@@ -49,16 +49,16 @@ export const ROUTES: EachRoute[] = [
       },
     ],
   },
-  {
-    title: "약관",
-    href: "/terms",
-    noLink: true,
-    items: [
-      { title: "개인정보", href: "/privacy" },
-      // { title: "getToken", href: "/getToken" },
-      // { title: "getRole", href: "/getRole" },
-    ],
-  },
+  // {
+  //   title: "약관",
+  //   href: "/terms",
+  //   noLink: true,
+  //   items: [
+  //     { title: "개인정보", href: "/privacy" },
+  //     // { title: "getToken", href: "/getToken" },
+  //     // { title: "getRole", href: "/getRole" },
+  //   ],
+  // },
   // {
   //   title: "React Hooks",
   //   href: "/react-hooks",
